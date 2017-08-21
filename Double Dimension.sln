@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Double Dimension", "Double Dimension.csproj", "{298370E0-E9FD-D8C6-22C8-D9E981307600}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Double Dimension.Editor", "Double Dimension.Editor.csproj", "{8F1AD039-D16F-9925-46B5-D064164CB8FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{298370E0-E9FD-D8C6-22C8-D9E981307600}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{298370E0-E9FD-D8C6-22C8-D9E981307600}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{298370E0-E9FD-D8C6-22C8-D9E981307600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1AD039-D16F-9925-46B5-D064164CB8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1AD039-D16F-9925-46B5-D064164CB8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1AD039-D16F-9925-46B5-D064164CB8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1AD039-D16F-9925-46B5-D064164CB8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
