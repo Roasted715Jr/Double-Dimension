@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="36" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="36" height="20" tilewidth="16" tileheight="16" nextobjectid="3">
  <tileset firstgid="1" source="Layout.tsx"/>
  <layer name="Tile Layer 1" width="36" height="20">
   <data encoding="csv">
@@ -25,4 +25,8 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 </data>
  </layer>
+ <objectgroup name="Hard Collision">
+  <object id="1" x="0" y="0" width="576" height="96"/>
+  <object id="2" x="0" y="240" width="576" height="80"/>
+ </objectgroup>
 </map>
