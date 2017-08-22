@@ -4,6 +4,8 @@ public class LevelGenerator : MonoBehaviour {
 
     public Texture2D map;
     public ColorToPrefab[] colorMappings;
+    public float offsetX;
+    public float offsetY;
 
 	// Use this for initialization
 	void Start () {
@@ -40,6 +42,13 @@ public class LevelGenerator : MonoBehaviour {
         //Pc: green
         //Mindows: purple
 
-        Debug.Log(pixelColor);
+        foreach (ColorToPrefab colorMapping in colorMappings)
+        {
+            if (colorMapping.color == pixelColor)
+            {
+                Vector2 position = new Vector2(x + offsetX, y + offsetY);
+                Instantiate(colorMapping.prefab, position, Quaternion.identity, transform);
+            }
+        }
     }
 }
