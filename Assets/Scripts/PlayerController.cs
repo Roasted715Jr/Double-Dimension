@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour {
 
     public float moveSpeed;
     public float jumpHeight;
+    private float moveVelocity;
+
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
@@ -22,15 +24,20 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		moveVelocity = 0f;
+
 		if (Input.GetAxisRaw("Vertical") == 1 && grounded)
         {
-            rb2d.velocity = new Vector2(0, jumpHeight);
+            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpHeight);
         }
 
         if (Input.GetAxisRaw("Horizontal") != 0)
         {
-            rb2d.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), rb2d.velocity.y);
+            //rb2d.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), rb2d.velocity.y);
+        	moveVelocity = moveSpeed * Input.GetAxisRaw("Horizontal");
         }
+
+        rb2d.velocity = new Vector2(moveVelocity, rb2d.velocity.y);
 
         if (rb2d.velocity.x > 0)
         {

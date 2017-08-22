@@ -25,5 +25,5 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 </data>
  </layer>
- <objectgroup name="Hard Collision" visible="0"/>
+ <objectgroup name="Hard Collision"/>
 </map>
