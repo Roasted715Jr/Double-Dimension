@@ -679,9 +679,9 @@ MonoBehaviour:
     height: 896
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64280000
+    m_SelectedIDs: c6270000
     m_LastClickedID: 0
-    m_ExpandedIDs: 9afbffff00000000
+    m_ExpandedIDs: e0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -742,20 +742,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Tiled2Unity
+    - Assets/Tiled2Unity/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Tiled2Unity
+  - Assets/Tiled2Unity/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Matthew.Duphily\Documents\Unity\Unity 2017.1.0\YummyFruits
-    Studios\Double Dimension
+    Studios\Double-Dimension
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4e280000
-    m_LastClickedID: 10318
-    m_ExpandedIDs: 00000000b42600004e28000000ca9a3bffffff7f
+    m_SelectedIDs: c6270000
+    m_LastClickedID: 10182
+    m_ExpandedIDs: 00000000842700008827000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -783,7 +783,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4260000
+    m_ExpandedIDs: 000000008427000088270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -814,18 +814,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 6624000082250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Tiled2Unity
+      m_OriginalName: Tiled2Unity
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10120
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
